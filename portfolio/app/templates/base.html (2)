@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+   {% include "head.html" %}
+  <body> 
+    {% include "nav.html" %}
+    {% include "hero.html" %}
+    {% include "portfolio.html" %}
+    {% include "footer.html" %}
+  </body>
+</html>

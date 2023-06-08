@@ -1,0 +1,29 @@
+<div class="content">
+ <div class="content_wrapper">
+  
+  <main class="about">
+   <h1 class="name">Daniel Easterman</h1>
+   <p class="job">Software Developer / Writer</p>
+   <hr class="hr">
+   <div class="description">
+    <p>
+     Journalist-turned-Developer.
+     <br>Coding in Python and Javascript.
+     <br>Interested in all things tech and web3.
+    </p>
+   </div>
+  </main>
+
+  <aside class="side">
+   <figure id="picture" class="picture">
+    <div class="picture-shadow"></div>
+    <img id="pictureImage" class="picture-image"
+       src="{{ url_for('static', filename='img/dan.jpg') }}"
+       alt="Profile Picture Your Name"
+       width="320"
+       height="320">
+   </figure>
+  </aside>
+  
+ </div>
+</div>
